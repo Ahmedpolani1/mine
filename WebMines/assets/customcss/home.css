@@ -1,0 +1,609 @@
+.homebanner{
+    background-image: url(../images/Untitled-2.jpg);
+    height: 570px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+.navbar{
+    height: 100px;
+}
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  .navbar {
+    --mdb-navbar-box-shadow: 0 0px 0 rgba(0,0,0,0.07),0 0px 0px rgba(0,0,0,0.0);
+    --mdb-navbar-padding-top: 0.5625rem;
+    --mdb-navbar-brand-img-margin-right: 0.25rem;
+    box-shadow: var(--mdb-navbar-box-shadow);
+    padding-top: var(--mdb-navbar-padding-top);
+}
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+span.bannertwoline {
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+}
+span.banneroneline {
+    font-size: 31px;
+    color: white;
+}
+.tCenter{
+    text-align: center;
+}
+
+
+/* <<<<<<<<<<<<<<<<SECOND ROW STARTED>>>>>>>>>>>>>>>>> */
+
+.secondrow{
+    background-color: #033460;
+    /* width: 100%; */
+    height: 200px;
+}
+
+.numdivtwo{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+.textdivtwo{
+    font-size: 10px;
+    color: white;
+}
+
+.customMT.col-md-2 {
+    margin-top: 49px;
+}
+
+.nav-item a{
+    color: white;
+    font-size:14px;
+}
+@media screen and (max-width: 762px){
+    .homebanner {
+        background-image: url(../images/Untitled-2.jpg);
+        height: 682px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .secondrow{
+        height: 850px;
+        text-align: center;
+    }
+    .UniqueDesignHR {
+        width: 20%;
+        text-align: center;
+        margin-left: 270px;
+        border-top: -36px;
+        border: 2px solid #00a5ff;
+      }
+      .UniqueDesignBG {
+        background-image: url(../images/ipadbg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+
+}
+
+@media screen and (max-width: 400px){
+    .secondrow{
+        height: 850px;
+        text-align: center;
+    }
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+        margin-left: 10px;
+    }
+    .clientFeedbackBG {
+         background-image: url(../images/clientfeedbackBG.jpg); 
+        height: 1027px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .UniqueDesignHR {
+        width: 20%;
+        text-align: center;
+        margin-left: 130px;
+        border-top: -36px;
+        border: 2px solid #00a5ff;
+      }
+      .UniqueDesignBG {
+        background-image: url(../images/ipadbg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .ChildColforUniqueDesign.col-md-12{
+
+        margin-top: 52px;
+      }
+      .iphonediv {
+        position: absolute;
+        top: 159px;
+        right: 80px;
+      }
+      
+
+
+
+}
+@media screen and (min-width: 400px){
+
+    .clientFeedbackBG {
+         background-image: url(../images/clientfeedbackBG.jpg); 
+        height: 1027px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .mainparentofclients.col-md-6 {
+        margin-top: 30px;
+      }
+      .iphonediv {
+        position: absolute;
+        top: 159px;
+        right: 549px;
+      }
+  
+   
+  
+   
+
+
+}
+@media screen and (max-width: 1000px){
+    .UniqueDesignBG {
+        background-image: url(../images/ipadbg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+  
+    
+      .iphonediv {
+        position: absolute;
+        top: 159px;
+        right: 80px;
+      }
+      .row.guaranteeRowChild {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (min-width: 1000px){
+
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+        margin-left: 97px;
+    }
+    .navlogo{
+        margin-left: 69px;
+
+    }
+    .textandimg {
+        display: grid;
+        grid-template-columns: 0.7fr auto;
+        width: 455px;
+    
+      }
+      .mainparentofclients.col-md-6 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .clientFeedbackBG {
+        background-image: url(../images/clientfeedbackBG.jpg);
+        height: 600px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .mainparentofclients.col-md-6 {
+        margin-top: 87px;
+      }
+      .bannertext {
+        margin-top: 102px;
+    }
+
+
+    .UniqueDesignBG {
+        background-image: url(../images/ipadbg.jpg);
+        height: 600px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .guaranteeContainerParent{
+        height: 500px;
+      }
+      .row.guaranteeRowChild {
+        margin-top: 107px;
+      }
+      .ChildColforUniqueDesign{
+        display: grid;
+        justify-content: center;
+      }
+      .UniqueDesignHR{
+        width: 60%;
+        text-align: center;
+        margin-left: 34px;
+        border-top: -36px;
+        border: 2px solid #00a5ff;
+              }
+
+    
+
+}
+@media screen and(max-width:1682px){
+    .iphonediv {
+        position: absolute;
+        top: 172px;
+        right: 553px;
+      }
+}
+
+.SecongChildCol.col-md-12{
+    text-align: center;
+    margin-top: 46px;
+  }
+.Uniquedesignspantwo{
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+.UniquedesignspanPara{
+    text-align: center;
+  }
+
+.ProfessionalWebDesignHeading{
+    font-size: 34px;
+    color: #033460;
+    font-family: unset;
+}
+.bottomhead{
+    text-align: center;
+    height: 66px;
+    background: #033460;
+}
+.oneamount{
+    font-size: 30px;
+    color: #f8b642;
+}
+.twoamount{
+    font-size: 39px;
+    color: white;
+    font-weight: 500;
+}
+.basicweb{
+    color: #033460;
+    font-size: 26px;
+}
+.topbody ul li{
+    list-style: none;
+}
+.redfree{
+    color: red;
+}
+
+.topbody {
+    border-bottom: 1px solid #d7d7d7;
+    height: 124px;
+}
+.UltimateWebMinesHeading{
+    font-size: 34px;
+    color: #033460;
+    font-family: unset;
+    
+}
+#pricehead{
+    background-color: #0b7ebd;
+    border: 1px solid #033460;
+}
+.headingone{
+    color: white;
+    font-size: 32px;
+}
+.headingtwo{
+    font-size: 46px;
+    color: #033460;
+}
+.ParentTbody{
+    background: #033460;
+    color: white;
+}
+.freespan{
+    color: #0b7ebd;
+}
+.childtable tbody td.hidebordertop {
+    border-top: none;
+}
+.ParentTbody td .rightborder{
+    border-right: 1px solid;
+
+}
+div .ultimateMinesarea {
+    width: 75%;
+}
+.ParentTable{
+
+    border: 1px solid #dee2e6;
+    margin-top: 30px;
+    border-top: 1px solid;
+}
+.childtable tbody td .cmsSpan{
+    border-bottom: 1px solid white;
+}
+
+.morefeaturesspan{
+    width: 175px;
+    text-align: center;
+
+}
+.RushDeliverySpan{
+    /* width: 175px; */
+    text-align: center;
+
+}
+span.RushDeliverySpanPrice {
+    color: #0b7ebd;
+    font-weight: 700;
+    padding-right: 6px;
+}
+.seeYourselfspan{
+    font-size: 20px;
+    color: #033460;
+    font-weight: 800;
+    font-family: inherit;
+}
+.websiteshowcasespan{
+    font-size: 18px;
+    font-family: cursive;
+}
+.AmazingServicesSpan{
+    color: #4a3939;
+    font-size: 32px;
+    font-weight: 700;
+}
+.weWorkspan{
+    font-size: 20px;
+}
+.tInherit.col-md-4{
+    text-align: initial;
+}
+.amazingservicessubhead{
+    font-weight: 700;
+    margin: 5px;
+}
+.homebannertwo{
+    background-image: url(../../../../../../../Projects/);
+    height: 570px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+  .fBold{
+    font-weight: bolder;
+  }
+  .letgetstartBTnrow{
+    height: 161px;
+background: #033460;
+  }
+  .letgetstartBTnDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .letgetstartBTn{
+    background: #0b7ebd;
+color: white;
+width: 395px;
+height: 56px;
+font-size: 21px;
+border: none;
+font-weight: bold;
+  }
+  .BrandSectionRow{
+    height: 233px;
+  }
+  .brandSectionQuestionSpan{
+    font-size: 26px;
+  }
+  .brandsSection{
+    text-align: center;
+  }
+  .textinitial{
+    text-align: initial;
+  }
+
+
+
+
+/* **********************PACKEGES CARDS********************* */
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<FOOTER CSS>>>>>>>>>>>>>>>>>>>>>> */
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background: #033460;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+    color: #ccc;
+    display: block;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    width: 357px;
+  }
+  .footer-social-icon span i{
+    color: red;
+    width: 21px;
+font-size: 11px;
+ 
+  }
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+    color: #878787;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+  }
+
+.footer-widget ul li {
+  display: inline-block;
+  /* float: left; */
+  width: 60%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+  margin-left: 14px;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 5px 14px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  color: #555050;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #eb2925;
+    padding: 7px 20px;
+    border: 1px solid #eb2925;
+    top: 0;
+    color: white;
+  }
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
